@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity , "Text" , Toast.LENGTH_LONG).show()
             Log.e("error is ", "text")
         }
-
         val sharedPreferences = getSharedPreferences("Mode", Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
         val nightMode = sharedPreferences.getBoolean("night",false)
