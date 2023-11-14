@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        switch1.setOnCheckedChangeListener { buttonView, isChecked ->
+        switch1.setOnCheckedChangeListener { _, isChecked ->
 
             if (!isChecked){
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
