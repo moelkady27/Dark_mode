@@ -11,8 +11,6 @@ import kotlinx.android.synthetic.main.activity_main.switch1
 import kotlinx.android.synthetic.main.activity_main.textView
 
 class MainActivity : AppCompatActivity() {
-
-    // lol
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
