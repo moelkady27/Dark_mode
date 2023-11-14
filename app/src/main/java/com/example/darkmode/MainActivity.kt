@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
         imageView.setOnClickListener {
             Toast.makeText(this@MainActivity , "Image" , Toast.LENGTH_LONG).show()
             Log.e("error is ", "image")
-
-//            45498
         }
 
         textView.setOnClickListener {
@@ -36,7 +34,6 @@ class MainActivity : AppCompatActivity() {
 
 
         switch1.setOnCheckedChangeListener { _, isChecked ->
-//            daada
             if (!isChecked){
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
                 editor.putBoolean("night", false)
