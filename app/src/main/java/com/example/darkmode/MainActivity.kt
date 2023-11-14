@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         imageView.setOnClickListener {
             Toast.makeText(this@MainActivity , "Image" , Toast.LENGTH_LONG).show()
-            Log.e("error is ", "image")
+            Log.e("error is ", "non")
         }
 
         textView.setOnClickListener {
