@@ -11,10 +11,11 @@ import kotlinx.android.synthetic.main.activity_main.switch1
 import kotlinx.android.synthetic.main.activity_main.textView
 
 class MainActivity : AppCompatActivity() {
+
+    // lol
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         imageView.setOnClickListener {
             Toast.makeText(this@MainActivity , "Image" , Toast.LENGTH_LONG).show()
             Log.e("error is ", "image")
