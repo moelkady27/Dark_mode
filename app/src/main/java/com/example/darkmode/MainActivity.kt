@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
 
         switch1.setOnCheckedChangeListener { _, isChecked ->
-
+//            daada
             if (!isChecked){
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
                 editor.putBoolean("night", false)
