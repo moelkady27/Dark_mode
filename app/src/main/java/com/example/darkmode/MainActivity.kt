@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         }
 
+//        lol
 
         switch1.setOnCheckedChangeListener { _, isChecked ->
             if (!isChecked){
