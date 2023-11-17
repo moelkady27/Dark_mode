@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity , "Image" , Toast.LENGTH_LONG).show()
             Log.e("error is ", "image")
         }
-
         textView.setOnClickListener {
             Toast.makeText(this@MainActivity , "Text" , Toast.LENGTH_LONG).show()
             Log.e("error is ", "text")
